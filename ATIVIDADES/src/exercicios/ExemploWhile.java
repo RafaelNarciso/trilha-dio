@@ -20,6 +20,8 @@ public class ExemploWhile {
     }
 
     private static double valorAletorio() {
+
         return ThreadLocalRandom.current().nextDouble(2, 8);
+
     }
 }

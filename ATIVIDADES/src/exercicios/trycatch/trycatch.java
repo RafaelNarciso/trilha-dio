@@ -29,6 +29,7 @@ public class trycatch {
             System.out.println("Tenho " + idade + " anos ");
             System.out.println("Minha altura é " + altura + " cm ");
             System.out.println("=====================================================================");
+
             sc.close();
         } catch (InputMismatchException e) {
             System.err.println("Os campos Idade e alturas precisam ser numericos");
